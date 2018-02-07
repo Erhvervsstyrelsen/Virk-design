@@ -1,0 +1,65 @@
+/*
+Description: General stylesheet for Virk Designmanual
+Author: Jesper Lund, jesper@eksponent.com
+Author: Nicklas Herholdt, nicklas@eksponent.com
+Author: Jesper Reck-Jensen, jesper.r@adviceas.dk
+Author URI: adviceas.dk
+Version: 2.5.0 (2017-08-07) YYYY-MM-DD
+
+[Table Of Contents]
+0- Variables (Colors etc.)
+1- Reset
+2- Global
+3- Links
+4- Headings
+5- Header & footer
+6- Navigation
+7- Middle
+8- Forms
+9- Extras
+10- Footer
+11- Addtions
+12- Buttons
+13- Tables
+14- Header
+15- Dropdowns
+16- Utility top
+17- Icons
+
+*/
+/* =0 Varibales */
+@import "designmanual/variables";
+/* =1 Reset */
+@import "designmanual/reset";
+/* =2 Global */
+@import "designmanual/global";
+/* =3 Links */
+@import "designmanual/links";
+/* =4 Headings */
+@import "designmanual/headings";
+/* =5 Footer */
+@import "designmanual/footer";
+/* =6 Navigation */
+@import "designmanual/navigation";
+/* =7 Middle */
+@import "designmanual/middle";
+/* =8 Forms */
+@import "designmanual/forms";
+/* =9 Extra */
+@import "designmanual/extras";
+/* =10 Footer */
+@import "designmanual/footer";
+/* =11 Additions */
+@import "designmanual/additions";
+/* =12 Buttons */
+@import "designmanual/buttons";
+/* =13 Tables */
+@import "designmanual/tables";
+/* =14 Header */
+@import "designmanual/header";
+/* =15 Dropdowns */
+@import "designmanual/dropdowns";
+/* =16 Utility top */
+@import "designmanual/utility-top";
+/* =17 Icons */
+@import "designmanual/icons";

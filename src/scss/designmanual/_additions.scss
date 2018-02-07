@@ -1,0 +1,44 @@
+fieldset h2 {
+	margin: 30px 0 4px;
+}
+
+fieldset .form-group {
+	margin: 0 0 1em;
+}
+
+fieldset .label {
+	padding: 0.2em 0 0.3em;
+}
+
+.main-content ul.nav.nav-tabs li.active .dropdown-menu li a {
+	color: #6e6e6e;
+	border-bottom: none;
+}
+
+.main-content ul.nav.nav-tabs li.active .dropdown-menu li.active a {
+	color: #000;
+}
+
+ul.nav.nav-tabs .dropdown-menu li.inactive-drop:hover {
+	background: #f8f4f1;
+	cursor: default;
+}
+
+ul.nav.nav-tabs .dropdown-menu li.inactive-drop:hover a {
+	color: #6e6e6e;
+	cursor: default;
+}
+
+.table thead tr td a.sort,
+.table thead tr td a.sort.active,
+.table thead tr th a.sort {
+	background: none;
+}
+
+.table tbody tr td {
+	vertical-align: middle;
+}
+
+.add-top {
+	margin-top: 20px;
+}

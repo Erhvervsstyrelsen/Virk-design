@@ -1,0 +1,28 @@
+.utility-top {
+	padding-top: 20px;
+
+	&-inner {
+		border-bottom: 1px solid $color__gray;
+		display: inline-block;
+		width: 100%;
+	}
+
+	&-title {
+		h2 {
+			font-size: 20px;
+		}
+	}
+
+	&-switch {
+		position: relative;
+		top: -7px;
+	}
+
+	&-buttons {
+		margin-right: 0;
+		//margin-bottom: 18px;
+		.btn {
+			margin-bottom: 18px;
+		}
+	}
+}

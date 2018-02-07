@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="6px" height="12px" viewBox="0 0 6 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__link-pointer-button-next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon__link-pointer-button-next" fill="#FFFFFF">
+            <path d="M1.05,0 C0.69,0 0,0.458015267 0,0.977099237 C0,1.16030534 0.09,1.3740458 0.24,1.58778626 L3.57,5.98473282 L0.24,10.4122137 C0.09,10.6259542 0,10.8091603 0,10.9923664 C0,11.3587786 0.57,12 1.05,12 C1.29,12 1.5,11.8473282 1.71,11.6030534 L5.61,6.83969466 C5.88,6.50381679 6,6.25954198 6,5.98473282 C6,5.70992366 5.88,5.46564885 5.61,5.12977099 L1.71,0.366412214 C1.5,0.122137405 1.29,0 1.05,0 Z" id="›"></path>
+        </g>
+    </g>
+</svg>

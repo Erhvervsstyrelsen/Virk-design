@@ -1,0 +1,50 @@
+/* Colors */
+$color__black: #000000;
+$color__white: #ffffff;
+$color__blue: #067293;
+$color__blue--dark: #05617D;
+$color__blue--light: #ecf3f7;
+$color__gray--darker: #333333;
+$color__gray--dark: #707070;
+$color__gray: #999999;
+$color__gray--light: #cecece;
+$color__gray--lighter: #F8F4F1;
+$color__orange: #f08b1e;
+$color__orange--dark: #cf7719;
+$color__green: #acc072;
+$color__green--dark: #92A361;
+$color__red: #ce1415;
+$color__red--dark: #840000;
+$color__yellow: #eedd92;
+$color__yellow--light: #fff3b8;
+$color__top-bar--bottom: #e0ddda;
+$color__top-bar--top: #ece9e6;
+$color__mobile-menu: #3b2c25;
+$color__mobile-menu--light: #50433e;
+$color__mobile-menu--lighter: $color__top-bar--top;
+/* Mixins */
+@mixin breakpoint($class) {
+	 @if $class == xs{
+		@media (max-width: 767px) {
+			 @content;
+		}
+	}
+	@else if $class == sm {
+		 @media (min-width: 768px){
+			@content;
+		}
+	}
+	@else if $class == md {
+		 @media (min-width: 992px){
+			@content;
+		}
+	}
+	@else if $class == lg {
+		 @media (min-width: 1200px){
+			@content;
+		}
+	}
+	@else {
+		 @warn"Breakpoint mixin supports: xs, sm, md, lg";
+	}
+}

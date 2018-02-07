@@ -1,0 +1,48 @@
+.dropdown {
+	&-simple {
+		// Styling of simple dropdown - Used on language switcher etc.
+		font-size: 14px;
+
+		.dropdown-toggle {
+			&:link,
+			&:visited {
+				color: $color__gray--darker;
+				background-color: transparent;
+				text-decoration: underline;
+			}
+
+			&:focus,
+			&:hover {
+				color: $color__black;
+				background-color: transparent;
+			}
+
+			&:active {
+				color: $color__black;
+				background-color: transparent;
+			}
+		}
+
+		.dropdown-menu {
+			box-shadow: none;
+			border-color: $color__gray--light;
+			border-radius: 0;
+			padding: 10px 0;
+
+			> li {
+				> a {
+					&:hover {
+						background-color: transparent;
+						color: $color__blue;
+					}
+				}
+			}
+		}
+	}
+}
+
+.nav .dropdown-simple.open > a,
+.nav .dropdown-simple.open > a:focus,
+.nav .dropdown-simple.open > a:hover {
+	background: transparent;
+}

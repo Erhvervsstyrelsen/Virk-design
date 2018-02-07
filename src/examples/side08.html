@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html xml:lang="da" lang="da">
+<head>
+    <title>Virk Designmanual v2.0</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="keywords" content="Keywords" />
+    <meta name="description" content="Description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="../dist/css/designmanual.css" rel="stylesheet" media="screen, print" />
+    <link href="../dist/css/component.css" rel="stylesheet" media="screen" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="../dist/js/html5shiv.js"></script>
+      <script type="text/javascript" src="../dist/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <a href="#contentstart" class="hide">Gå direkte til indhold</a>
+    <!-- Header start -->
+    <header class="navbar">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-xs-12">
+                        <a href="">
+                            <img src="../dist/graphics/logo-top.png" height="57" width="240" alt="Virk / Indberetning - logo" class="logo" />
+                        </a>
+                    </div>
+                    <div class="col-xs-4 align-right nav-tools hidden-xs">
+                        <a href="">Log ud &#8250;</a>
+                        <div class="inner-details">
+                            <span class="login-name">Christian Emil Vestergaard Christiansen,<br/>Københavns Urmager Værksted v/Martin Elsig</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topbar hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 info">
+                        <p>Designmanual</p>
+                    </div>
+                    <div class="col-xs-4 align-right">
+                        <div class="inner-details">
+                            <a href="#" class="solution-author-link">Erhvervsstyrelsen <span>&#8250;</span></a>
+                            <div class="contact">
+                                Support: <span class="solution-author-phone">72 20 00 31</span>
+                                <span class="divider">|</span>
+                                <a href="#" class="solution-author-email">E-mail <span>&#8250;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <!-- Wrapper start -->
+    <div class="container">
+        <!-- Main content wrapper start -->
+        <div class="content row">
+
+            <!-- Main content start -->
+            <div class="col-sm-9 main-content">
+                <!-- Hidden link for accesibility -->
+                <a id="contentstart" class="hide">Indhold start</a>
+
+                <!-- Page content start -->
+                <h1 class="section">H1 Overskrift med streg under</h1>
+
+                <!--                <p>
+                    <a href="#popup-box" class="lightbox-link"></a>
+                </p>-->
+                <!-- Button trigger modal -->
+                <button data-toggle="modal" data-target="#myModal" class="btn btn-primary">Klik her for at få vist lightboxen</button>
+
+                <!-- Modal -->
+                <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Lightbox overskrift</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Her kan vi skrive en masse tekst<br />
+                                    .. i flere linjer osv, samt nogle knapper nedenfor
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-link">Annuller</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Indsend</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+                <!--                <p>
+                    <a href="#example1" class="toggle-link">Vis/skjul element</a>
+                </p>-->
+
+                <p></p>
+
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    Vis/skjul element #1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h2>Overskrift h2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus tortor sit amet est convallis sed sodales nisi pulvinar. Duis elit turpis, tempus posuere sodales at, tristique non magna. Quisque bibendum mauris vel mi aliquam sagittis. Suspendisse id eros sed nibh dignissim vulputate. Vestibulum varius posuere libero quis tincidunt. Aliquam mollis tortor id justo tincidunt et cursus nisl sagittis. Donec id neque dui, non congue justo. Nam sit amet nibh non massa auctor dictum. Duis laoreet gravida fermentum. Nam at elit lacus, et mollis mi. Suspendisse sed lacus mollis erat vehicula egestas et vel ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    Vis/skjul element #2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h2>Overskrift h2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus tortor sit amet est convallis sed sodales nisi pulvinar. Duis elit turpis, tempus posuere sodales at, tristique non magna. Quisque bibendum mauris vel mi aliquam sagittis. Suspendisse id eros sed nibh dignissim vulputate. Vestibulum varius posuere libero quis tincidunt. Aliquam mollis tortor id justo tincidunt et cursus nisl sagittis. Donec id neque dui, non congue justo. Nam sit amet nibh non massa auctor dictum. Duis laoreet gravida fermentum. Nam at elit lacus, et mollis mi. Suspendisse sed lacus mollis erat vehicula egestas et vel ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    Vis/skjul element #3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h2>Overskrift h2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus tortor sit amet est convallis sed sodales nisi pulvinar. Duis elit turpis, tempus posuere sodales at, tristique non magna. Quisque bibendum mauris vel mi aliquam sagittis. Suspendisse id eros sed nibh dignissim vulputate. Vestibulum varius posuere libero quis tincidunt. Aliquam mollis tortor id justo tincidunt et cursus nisl sagittis. Donec id neque dui, non congue justo. Nam sit amet nibh non massa auctor dictum. Duis laoreet gravida fermentum. Nam at elit lacus, et mollis mi. Suspendisse sed lacus mollis erat vehicula egestas et vel ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="clearfix"></div>
+
+            </div>
+
+            <!-- Page content end -->
+        </div>
+        <!-- Main content end -->
+
+
+        <div class="clearfix"></div>
+
+        <!-- Main content wrapper (three-col) end -->
+    </div>
+
+    <div class="footer visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 inner-details">
+                    <a href="#" class="solution-author-link">Erhvervsstyrelsen <span>&#8250;</span></a>
+                </div>
+                <div class="col-xs-12 logo-container">
+                    <a href="">
+                        <img src="../dist/graphics/logo-top.png" height="57" width="240" alt="Virk / Indberetning - logo" class="logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="row last-row">
+                <div class="col-xs-8 nav-tools">
+                    <p>Christian Emil Vestergaard Christiansen, Københavns Urmager Værksted v/Martin Elsig Laursen</p>
+                </div>
+                <div class="col-xs-4 align-right nav-tools">
+                    <a href="">Log ud &#8250;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wrapper end -->
+    <!-- Script to load start -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="../dist/js/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../dist/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="../dist/js/jquery.dlmenu.js"></script>
+    <script type="text/javascript" src="../dist/js/common.js"></script>
+    <!-- Script to load end -->
+</body>
+</html>

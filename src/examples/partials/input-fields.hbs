@@ -1,0 +1,550 @@
+z<form method="get" action="none.html" role="form">
+		<fieldset>
+				<legend><span role="heading" aria-level="2">Fieldset overskrift (form uden hjælp og beskrivelse)</span></legend>
+				<div class="form-group">
+						<label for="Text1">Tekst felt 1 <span class="required">*</span></label>
+						<div class="required-enabled">
+								<input type="text" id="Text1" class="form-control" />
+						</div>
+				</div>
+				<div class="form-group">
+						<label for="Text1">Tekst felt 1 <span class="required">*</span></label>
+						<div class="has-error required-enabled">
+								<input type="text" id="Text1" class="form-control" />
+								<span class="help-block">Udfyld venligst feltet</span>
+						</div>
+				</div>
+				<div class="form-group">
+						<label for="Text2">Tekst felt 2</label>
+						<input type="text" id="Text2" class="form-control" />
+				</div>
+				<div class="form-group">
+						<p>Her er noget tekst vi kan indskyde mellem elementerne til yderligere forklaring for feltet nedenfor (typisk).</p>
+				</div>
+				<div class="form-group disabled">
+						<label for="Text3">Tekst felt 3 (disabled)</label>
+						<input type="text" id="Text3" disabled="disabled" class="form-control" />
+				</div>
+				<div class="form-group">
+						<label for="Textarea1">Textarea 1</label>
+						<textarea id="Textarea1" cols="10" rows="10" class="form-control"></textarea>
+				</div>
+				<div class="form-group disabled">
+						<label for="Textarea2">Textarea 2 (disabled)</label>
+						<textarea id="Textarea2" cols="10" rows="10" disabled="disabled" class="form-control"></textarea>
+				</div>
+				<div class="form-group">
+						<label for="Select1">Dropdown 1</label>
+						<select id="Select1" class="form-control">
+								<option value="0">Vælg værdi</option>
+						</select>
+				</div>
+				<div class="form-group disabled">
+						<label for="Select2">Dropdown 2 (disabled)</label>
+						<select id="Select2" disabled="disabled" class="form-control">
+								<option value="0">Vælg værdi</option>
+						</select>
+				</div>
+				<div class="form-group">
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="">
+										Checkbox 1
+								</label>
+						</div>
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="">
+										Checkbox 2
+								</label>
+						</div>
+				</div>
+				<div class="form-group disabled">
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="" disabled="disabled">
+										Checkbox 3 (disabled)
+								</label>
+						</div>
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="" disabled="disabled">
+										Checkbox 4 (disabled)
+								</label>
+						</div>
+				</div>
+				<div class="form-group">
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+										Radio 1
+								</label>
+						</div>
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+										Radio 2
+								</label>
+						</div>
+				</div>
+				<div class="form-group disabled">
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="disabled">
+										Radio 3 (disabled)
+								</label>
+						</div>
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" disabled="disabled">
+										Radio 4 (disabled)
+								</label>
+						</div>
+				</div>
+				<div class="form-group">
+						<label>Readonly felt</label>
+						<span class="form-control-static">Åvej 7, 3 th, 8680 Ry</span>
+				</div>
+
+				<div class="row">
+						<div class="col-xs-3">
+								<div class="form-group">
+										<label for="Text31">Extra small felt</label>
+										<input type="text" id="Text31" class="form-control" />
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<div class="col-xs-5">
+								<div class="form-group">
+										<label for="Text311">Small felt</label>
+										<input type="text" id="Text311" class="form-control" />
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<div class="col-xs-7">
+								<div class="form-group">
+										<label for="Text3111">Medium felt</label>
+										<input type="text" id="Text3111" class="form-control" />
+								</div>
+						</div>
+				</div>
+		</fieldset>
+
+		<div class="fieldset-text">
+				<h2>Gruppe niveau to</h2>
+				<p>Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna. </p>
+		</div>
+
+
+		<fieldset>
+				<legend>Fieldset overskrift ("1-col" form med beskrivelse)</legend>
+				<div class="form-group">
+						<label for="Text1">Tekst felt 1 <span class="required">*</span></label>
+						<div class="required-enabled">
+								<input type="text" id="Text1" class="form-control" />
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+						</div>
+				</div>
+				<div class="form-group">
+						<label for="Text1">Tekst felt 1 <span class="required">*</span></label>
+						<div class="has-error required-enabled">
+								<input type="text" id="Text1" class="form-control" />
+								<span class="help-block">Udfyld venligst feltet</span>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+						</div>
+				</div>
+				<div class="form-group">
+						<label for="Text2">Tekst felt 2</label>
+						<input type="text" id="Text2" class="form-control" />
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group">
+						<p>Her er noget tekst vi kan indskyde mellem elementerne til yderligere forklaring for feltet nedenfor (typisk).</p>
+				</div>
+				<div class="form-group disabled">
+						<label for="Text3">Tekst felt 3 (disabled)</label>
+						<input type="text" id="Text3" disabled="disabled" class="form-control" />
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+
+				<div class="form-group">
+						<div class="has-error required-enabled">
+								<label for="Textarea10">Textarea 1 <span class="required">*</span></label>
+								<textarea id="Textarea10" cols="10" rows="10" class="form-control"></textarea>
+								<div class="help-block">Udfyld venligst feltet</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+				</div>
+				<div class="form-group">
+						<div class="required-enabled">
+								<label for="Textarea11">Textarea 3 <span class="required">*</span></label>
+								<textarea id="Textarea11" cols="10" rows="10" class="form-control"></textarea>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+				</div>
+				<div class="form-group disabled">
+						<label for="Textarea2">Textarea 2 (disabled)</label>
+						<textarea id="Textarea2" cols="10" rows="10" disabled="disabled" class="form-control"></textarea>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group">
+						<div class="has-error required-enabled">
+								<label for="Select12">Dropdown 1 <span class="required">*</span></label>
+								<select id="Select12" class="form-control">
+										<option value="0">Vælg værdi</option>
+								</select>
+								<div class="help-block">Udfyld venligst feltet</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+						</div>
+				</div>
+				<div class="form-group disabled">
+						<label for="Select20">Dropdown 2 (disabled)</label>
+						<select id="Select20" disabled="disabled" class="form-control">
+								<option value="0">Vælg værdi</option>
+						</select>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+
+				<div class="form-group">
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="">
+										Checkbox 1
+								</label>
+						</div>
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="">
+										Checkbox 2
+								</label>
+						</div>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group disabled">
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="" disabled="disabled">
+										Checkbox 3 (disabled)
+								</label>
+						</div>
+						<div class="checkbox">
+								<label>
+										<input type="checkbox" value="" disabled="disabled">
+										Checkbox 4 (disabled)
+								</label>
+						</div>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group">
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+										Radio 1
+								</label>
+						</div>
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+										Radio 2
+								</label>
+						</div>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group disabled">
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="disabled">
+										Radio 3 (disabled)
+								</label>
+						</div>
+						<div class="radio">
+								<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" disabled="disabled">
+										Radio 4 (disabled)
+								</label>
+						</div>
+						<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+				</div>
+				<div class="form-group">
+						<label>Readonly felt</label>
+						<span class="form-control-static">Åvej 7, 3 th, 8680 Ry</span>
+						<div class="description">Dette er hjælpe teksten til feltet til venstre</div>
+				</div>
+				<div class="row">
+						<div class="col-xs-3">
+								<div class="form-group">
+										<label for="Text31">Extra small felt</label>
+										<input type="text" id="Text31" class="form-control" />
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<div class="col-xs-5">
+								<div class="form-group">
+										<label for="Text311">Small felt</label>
+										<input type="text" id="Text311" class="form-control" />
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<div class="col-xs-7">
+								<div class="form-group">
+										<label for="Text3111">Medium felt</label>
+										<input type="text" id="Text3111" class="form-control" />
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+								</div>
+						</div>
+				</div>
+		</fieldset>
+
+		<fieldset>
+				<legend>Fieldset overskrift (2-col form med beskrivelse)</legend>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="has-error required-enabled">
+												<label for="Textu8">Tekst felt 1 <span class="required">*</span></label>
+												<input type="text" id="Textu8" class="form-control" />
+												<div class="help-block">Udfyld venligst feltet</div>
+												<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+										</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="has-error required-enabled">
+												<label for="Textu1">Tekst felt 2 <span class="required">*</span></label>
+												<input type="text" id="Textu1" class="form-control" />
+												<div class="help-block">Udfyld venligst feltet</div>
+												<div class="description">Dette er hjælpe teksten til feltet ovenfor <a class="help" role="button" data-toggle="popover" data-placement="bottom" data-content='Hjælpetekst'>Hjælp</a></div>
+										</div>
+								</div>
+						</div>
+				</div>
+
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group disabled">
+										<label for="Textu2">Tekst felt 3 (disabled)</label>
+										<input type="text" id="Textu2" disabled="disabled" class="form-control" />
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="required-enabled">
+												<label for="Textu8">Tekst felt 1 <span class="required">*</span></label>
+												<input type="text" id="Textu8" class="form-control" />
+												<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+										</div>
+								</div>
+
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="required-enabled">
+												<label for="Textareau4">Textarea 1 <span class="required">*</span></label>
+												<textarea id="Textareau4" cols="10" rows="10" class="form-control"></textarea>
+												<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+										</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group disabled">
+										<label for="Textareau5">Textarea 2 (disabled)</label>
+										<textarea id="Textareau5" cols="10" rows="10" disabled="disabled" class="form-control"></textarea>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="required-enabled">
+												<label for="Selectu1">Dropdown 1 <span class="required">*</span></label>
+												<select id="Selectu1" class="form-control">
+														<option value="0">Vælg værdi</option>
+												</select>
+												<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+										</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group disabled">
+										<label for="Selectu3">Dropdown 2 (disabled)</label>
+										<select id="Selectu3" disabled="disabled" class="form-control">
+												<option value="0">Vælg værdi</option>
+										</select>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="checkbox">
+												<label>
+														<input type="checkbox" id="Checkbox6656" />
+														Checkbox 1
+												</label>
+										</div>
+										<div class="checkbox">
+												<label>
+														<input type="checkbox" id="Checkbox6656" />
+														Checkbox 2
+												</label>
+										</div>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group disabled">
+										<div class="checkbox">
+												<label>
+														<input type="checkbox" id="Checkbox6656" disabled="disabled" />
+														Checkbox 3
+												</label>
+										</div>
+										<div class="checkbox">
+												<label>
+														<input type="checkbox" id="Checkbox6656" disabled="disabled" />
+														Checkbox 4
+												</label>
+										</div>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<div class="radio">
+												<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+														Radio 3 (disabled)
+												</label>
+										</div>
+										<div class="radio">
+												<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+														Radio 4 (disabled)
+												</label>
+										</div>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group disabled">
+										<div class="radio">
+												<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="disabled">
+														Radio 3 (disabled)
+												</label>
+										</div>
+										<div class="radio">
+												<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" disabled="disabled">
+														Radio 4 (disabled)
+												</label>
+										</div>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+								<div class="form-group">
+										<span class="label">Readonly felt</span>
+										<span class="form-control-static">Åvej 7, 3 th, 8680 Ry</span>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+						<div class="col-sm-6">
+								<div class="form-group">
+										<span class="label">Readonly felt</span>
+										<span class="form-control-static">Åvej 7, 3 th, 8680 Ry</span>
+										<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-xs-5">
+										<div class="form-group">
+												<label for="Text31">Extra small felt</label>
+												<input type="text" id="Text31" class="form-control" />
+										</div>
+								</div>
+							</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-xs-5">
+										<div class="form-group">
+												<label for="Text31">Extra small felt</label>
+												<input type="text" id="Text31" class="form-control" />
+										</div>
+								</div>
+							</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-xs-7">
+										<div class="form-group">
+												<label for="Text31">Small felt</label>
+												<input type="text" id="Text31" class="form-control" />
+										</div>
+								</div>
+							</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-xs-7">
+										<div class="form-group">
+												<label for="Text31">Small felt</label>
+												<input type="text" id="Text31" class="form-control" />
+										</div>
+								</div>
+							</div>
+								<div class="description">Dette er hjælpe teksten til feltet ovenfor</div>
+						</div>
+				</div>
+
+		</fieldset>
+
+		<div class="buttons">
+				<button type="button" class="btn btn-primary button-prev pull-left">Forrige</button>
+				<button type="submit" class="btn btn-primary button-next pull-right">Næste</button>
+				<div class="clearfix"></div>
+				<div class="button-text">
+						<div class="left-btn">
+								Klik Forrige for at gå tilbage
+						</div>
+						<div class="right-btn">
+								Klik Næste for at gemme
+						</div>
+				</div>
+		</div>
+
+</form>

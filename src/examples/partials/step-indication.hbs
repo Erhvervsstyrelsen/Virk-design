@@ -1,0 +1,60 @@
+<h2 class="section">Trinindikation</h2>
+<!-- Main content wrapper start -->
+<div class="content row">
+	<div class="col-sm-4">
+		{{> step-indicators/simple-five-steps}}
+	</div>
+
+	<!-- Main content start -->
+	<div class="col-sm-8 main-content">
+			<!-- Insert content -->
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+
+<!-- Page content start -->
+<h2 class="section">Betinget tringuide</h2>
+
+<form method="get" action="#">
+		<div class="step-guide">
+				<div class="previous">
+						<h2>1. Er fondon lønsumspligtig?</h2>
+						<div class="item">
+								<a href="side-1.html">Redigér svar</a>
+								<div class="answer">Ja</div>
+						</div>
+				</div>
+				<div class="active">
+						<h2>2. Skal fonden registreres for lønsumsafgift?</h2>
+						<div class="item">
+								<input type="radio" name="radio1" id="checkbox1" onclick="location.href='#';" />
+								<label for="checkbox1">Ja, fonden skal registreres for lønsumsafgift</label>
+								<div class="clearfix"></div>
+						</div>
+						<div class="item">
+								<input type="radio" name="radio1" id="checkbox2" onclick="location.href='#';" />
+								<label for="checkbox2">Nej, fondens afgiftsgrunldag er under 80.000 kr. Fonden registrer sig først for lønsumsafgift når afgiftgrundlaget nåes.</label>
+								<div class="clearfix"></div>
+								<div class="help">
+										Lorem ipsum doret del mar. Lorem ipsum doret del mar. Lorem ipsum doret del mar. Lorem ipsum doret del mar
+								</div>
+						</div>
+				</div>
+		</div>
+
+
+		<div class="buttons">
+				<button type="button" class="btn btn-primary button-prev pull-left">Forrige</button>
+				<button type="submit" class="btn btn-primary button-next pull-right">Næste</button>
+				<div class="clearfix"></div>
+				<div class="button-text">
+						<div class="left-btn">
+								Klik Forrige for at gå tilbage
+						</div>
+						<div class="right-btn">
+								Klik Næste for at gemme
+						</div>
+				</div>
+		</div>
+</form>

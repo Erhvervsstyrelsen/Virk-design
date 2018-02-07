@@ -1,0 +1,142 @@
+/* Main content */
+.main-content {
+	font-size: 14px;
+	margin: 40px 0 0;
+	@include breakpoint(sm) {
+		margin: 0 0 20px;
+	}
+
+	p {
+		color: #333;
+		margin: 0 1.5em 1.5em 0;
+		line-height: 1.5em;
+		//font-size: 110%;
+	}
+
+	p.lead {
+		font-size: 17px;
+		font-weight: 400;
+	}
+
+	ol,
+	ul {
+		//margin-bottom: 20px;
+		//margin-top: 20px;
+		margin-bottom: 1.5em;
+		line-height: 1.5em;
+	}
+
+	ul li {
+		list-style-type: disc;
+		//margin-bottom: 5px;
+		margin-left: 1.5em;
+		//line-height: 1.45em;
+	}
+
+	ol li {
+		list-style-type: decimal;
+		//margin-bottom: 1em;
+		margin-left: 1.5em;
+		//line-height: 1.45em;
+	}
+}
+/* notification */
+.alert {
+	border: 2px solid #cdcdcd;
+	padding: 20px 20px 20px 70px;
+	color: #000;
+	margin-bottom: 20px;
+	border-radius: 0;
+	background-image: url("../graphics/icon__info.svg");
+	background-repeat: no-repeat;
+	background-position: 20px 13px;
+	background-color: #fff;
+	background-size: 27px 27px;
+
+	a.close {
+		float: right;
+		text-indent: -9999px;
+		width: 18px;
+		height: 17px;
+		background: url("../graphics/icon-close.png") no-repeat top left;
+		margin-right: -10px;
+		margin-top: -10px;
+	}
+
+	.header {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+	&.alert-warning {
+		border-color: #d9b780;
+		background-image: url("../graphics/icon__exclamation.svg");
+		background-repeat: no-repeat;
+		background-position: 20px 13px;
+		background-color: #fff;
+		background-size: 27px 27px;
+	}
+
+	&.alert-danger {
+		border-color: #CE1415;
+		background-image: url("../graphics/icon__error.svg");
+		background-repeat: no-repeat;
+		background-position: 20px 13px;
+		background-color: #fff;
+		background-size: 27px 27px;
+	}
+
+	&.alert-success {
+		border-color: #acc072;
+		background-image: url("../graphics/icon__tick.svg");
+		background-repeat: no-repeat;
+		background-position: 20px 13px;
+		background-color: #fff;
+		background-size: 27px 27px;
+	}
+}
+
+.label.label-draft {
+	color: #727272;
+	padding: 5px 0;
+	font-weight: normal;
+	border-radius: 0;
+	font-size: 120%;
+	float: right;
+}
+
+.constant-height {
+	//min-height: 31px;
+}
+/* Sidebar */
+.sidebar {
+	min-height: 10px;
+	line-height: 1.5em;
+	margin-top: 20px;
+
+	.box {
+		margin-bottom: 20px;
+
+		h2 {
+			font-size: 15px;
+			font-weight: bold;
+			border-bottom: 2px solid #333;
+			padding-bottom: 18px;
+			margin: 0;
+		}
+
+		.inner {
+			background: #f0f6fa;
+			padding: 20px;
+
+			p {
+				font-size: 13px;
+				margin-bottom: 1em;
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{{> doc-head}}
+
+{{> header-kompleks}}
+
+
+
+
+
+
+<!-- Wrapper start -->
+<div class="container">
+
+	<!-- Mobile menu, Open step guide, start -->
+	<div class="row">
+		<div class="col-xs-12 constant-height">
+			<button class="btn btn-steps visible-xs" type="button" data-toggle="collapse" data-target=".nav-collapse">Trin 3 af 5 <span class="caret"></span></button>
+			{{> header/mobile-menu}}
+		</div>
+	</div>
+
+
+
+	<!-- Main content wrapper (three-col) start -->
+	<div class="content row">
+		<!-- Left navigation (style-1) start -->
+		<!--<div class="col-sm-3">
+			<ul class="nav style-1 hidden-xs">
+				<li class="open">
+					<a href="#" class="change">Ny virksomhed</a>
+				</li>
+				<li>
+					<a href="#" class="companies">Mine registreringer</a>
+				</li>
+				<li>
+					<a href="#" class="templates">Min konto</a>
+				</li>
+				<li>
+					<a href="#" class="payments">Hjælp</a>
+				</li>
+			</ul>
+		</div>-->
+
+		<div class="col-sm-3">
+			{{> step-indicators/step-indicator-multilevel}}
+		</div>
+
+		<!-- Main content start -->
+		<div class="col-sm-9 main-content">
+			<!-- Hidden link for accesibility -->
+			<a id="contentstart" class="hide">Indhold start</a>
+
+			{{> notifications/notification-error}}
+
+			<!-- Page content start -->
+			<h1>Trinnavn</h1>
+			<p class="lead">Manchettekst indledende tekst til siden. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+
+			<div class="row">
+				<div class="col-xs-12">
+
+						<form method="get" action="none.html" role="form">
+							<fieldset>
+								<legend><span role="heading" aria-level="2">Titel på feltgruppe</span></legend>
+								<p>Indledende brødtekst til feltgruppe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+
+								<div class="form-group">
+									<label for="vej-gade">Gade/vej <span class="required">*</span></label>
+									<div class="required-enabled">
+										<input type="text" id="vej-gade" class="form-control" />
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label for="husnummer">Husnummer <span class="required">*</span></label>
+												<div class="required-enabled">
+													<input type="text" id="husnummer" class="form-control" />
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="form-group">
+												<label for="etage">Etage</label>
+												<input type="text" id="etage" class="form-control" />
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="form-group">
+												<label for="side">Side</label>
+												<input type="text" id="side" class="form-control" />
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="form-group">
+												<label for="postnr">Postnummer <span class="required">*</span></label>
+												<div class="required-enabled">
+													<input type="text" id="postnr" class="form-control" />
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-8">
+											<div class="form-group">
+												<div class="required-enabled">
+													<label for="by">By <span class="required">*</span></label>
+													<input type="text" id="by" class="form-control" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<div class="form-group">
+											<label for="Text1">Tekst felt 1 <span class="required">*</span></label>
+											<div class="has-error required-enabled">
+													<input type="text" id="Text1" class="form-control">
+													<span class="help-block">Udfyld venligst feltet</span>
+											</div>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+
+
+								<fieldset>
+									<legend><span role="heading" aria-level="2">Titel på feltgruppe</span></legend>
+									<p>Indledende brødtekst til feltgruppe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+									{{> tables/table-inputs}}
+									<!-- Modal -->
+									{{> modals/modal-head-responsive modal-name="bredtabel-modal"}}
+										{{> tables/table-inputs tablewidth="1200px"}}
+									{{> modals/modal-footer}}
+
+								</fieldset>
+
+
+								<fieldset>
+									<legend><span role="heading" aria-level="2">Titel på feltgruppe</span></legend>
+									<p>Indledende brødtekst til feltgruppe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+									{{> tabs/tabs}}
+
+								</fieldset>
+							</form>
+
+							<div class="buttons">
+								<a href="#" class="btn btn-primary button-prev pull-left">Forrige</a>
+								<a data-toggle="modal" href="#" class="btn btn-primary button-next pull-right">Næste</a>
+								<div class="clearfix"></div>
+								<div class="button-text">
+									<div class="left-btn">
+										Klik Forrige for at gå tilbage
+										</div>
+										<div class="right-btn">
+												Klik Næste for at gemme
+										</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+
+
+			<div class="clearfix"></div>
+		</div>
+		<!-- Page content end -->
+
+	</div>
+	<!-- Main content end -->
+	<div class="clear"></div>
+	<!-- Main content wrapper (three-col) end -->
+</div>
+
+{{> footer}}
+{{> footers/footer-myndigheder}}
+
+{{> doc-footer}}

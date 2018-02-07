@@ -1,0 +1,235 @@
+/* Popup */
+.modal-title {
+	font-size: 24px;
+	font-weight: normal;
+	color: $color__gray--darker;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.modal-body p {
+	font-size: 100%;
+	color: $color__black;
+}
+
+.modal-content,
+.popover {
+	border-radius: 0;
+}
+
+.modal-footer,
+.modal-header {
+	border: none;
+}
+
+.modal-footer {
+	button {
+		margin-bottom: 10px;
+		margin-right: 0;
+		@include breakpoint(md) {
+			margin: 0 15px 0 0;
+		}
+	}
+
+	.btn {
+		+.btn {
+			margin-bottom: 10px;
+			margin-right: 0;
+			@include breakpoint(md) {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	a.cancel {
+		margin-right: 15px;
+		font-size: 16px;
+	}
+}
+
+.modal-body fieldset {
+	border-bottom: none;
+}
+// Responsive modal-body
+
+.modal.responsive {
+	.modal-dialog {
+		width: auto;
+		width: fit-content;
+		max-width: 95%;
+
+		.modal-body {
+			overflow-x: auto;
+		}
+	}
+}
+/* Accordion - Step guide */
+.accordion {
+	margin-bottom: 40px;
+}
+
+.panel-default.panel {
+	margin-bottom: 10px;
+}
+
+.panel-heading a {
+	font-size: 24px;
+	text-decoration: none;
+	color: $color__gray--darker;
+}
+
+.panel-heading .accordion-toggle {
+	background-image: url("../graphics/icon__arrow--up.svg");
+	background-repeat: no-repeat;
+	background-position: 97% 28px;
+	padding-right: 40px;
+}
+
+.panel-heading .accordion-toggle.collapsed {
+	background-image: url("../graphics/icon__arrow--down.svg");
+	background-repeat: no-repeat;
+	background-position: 97% 28px;
+	padding-right: 40px;
+}
+
+.panel-group .panel + .panel {
+	margin: 10px 0 0;
+}
+
+.panel-group .panel {
+	overflow: visible;
+	border-radius: 0;
+	padding: 0;
+}
+
+.panel-default > .panel-heading {
+	padding: 0;
+	background-color: $color__white;
+}
+
+.panel-body {
+	padding: 0;
+	border: none;
+}
+
+.panel-group .panel table a {
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border-top: none;
+}
+
+.accordion-toggle {
+	padding: 20px 30px;
+	width: 100%;
+	display: block;
+
+	.accordion-status {
+		font-size: 16px;
+		font-weight: normal;
+		margin-right: 30px;
+		position: relative;
+		display: block;
+		@include breakpoint(md) {
+			float: right;
+			display: inline-block;
+			top: -6px;
+		}
+
+		.icon {
+			top: 6px;
+			margin-left: 8px;
+		}
+	}
+}
+
+.panel-body {
+	padding: 10px 28px;
+}
+
+.step-guide .notice-info {
+	border: 2px solid #cdcdcd;
+}
+
+.step-guide .notice-warning {
+	border: 2px solid #d9b780;
+}
+
+.step-guide .notice-danger {
+	border: 2px solid #ce8a8a;
+}
+
+.step-guide .notice-success {
+	border: 2px solid $color__green;
+}
+
+.step-guide span.info {
+	background-image: url("../graphics/icon__info.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding: 2px 0 5px 25px;
+	margin: -40px 0 0 30px;
+	position: relative;
+	top: -15px;
+}
+
+.step-guide span.warning {
+	background-image: url("../graphics/icon__exclamation.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding: 2px 0 5px 25px;
+	margin: -40px 0 0 30px;
+	position: relative;
+	top: -15px;
+}
+
+.step-guide span.danger {
+	background-image: url("../graphics/icon__error.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding: 2px 0 5px 25px;
+	margin: -40px 0 0 30px;
+	position: relative;
+	top: -15px;
+}
+
+.step-guide span.success {
+	background-image: url("../graphics/icon__tick.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding: 2px 0 5px 25px;
+	margin: -40px 0 0 30px;
+	position: relative;
+	top: -15px;
+}
+/* Edit bar - with edit button */
+.edit-bar {
+	background-color: $color__gray--lighter;
+	padding: 10px 20px 20px;
+	border-top: 3px solid $color__orange;
+	margin-bottom: 30px;
+	@include breakpoint(md) {
+		padding: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin: 5px 0 0;
+		font-weight: normal;
+	}
+
+	.btn {
+		margin: 10px 0 0;
+		@include breakpoint(md) {
+			margin: 0;
+		}
+
+		&-default {
+			background-color: transparent;
+		}
+	}
+}

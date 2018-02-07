@@ -1,0 +1,134 @@
+.top {
+	background: #ece9e6;
+	height: 84px;
+	width: 100%;
+}
+
+.logo {
+	margin: 10px 0 0;
+}
+
+.nav-tools {
+	font-size: 120%;
+	margin-top: 15px;
+}
+
+.nav-tools a {
+	color: $color__gray--darker;
+	margin-left: 10px;
+}
+
+.nav-tools a.language {
+	line-height: 60px;
+}
+
+.topbar {
+	background: #e0ddda;
+	width: 100%;
+	min-height: 80px;
+	//height: 80px;
+	//max-height: 80px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+.sticky-content {
+	margin-top: 160px;
+}
+
+.sticky-content-less {
+	margin-top: 110px;
+}
+
+.info {
+	margin-top: 15px;
+}
+
+.info a {
+	font-size: 15px;
+	color: $color__gray--darker;
+	text-decoration: underline;
+}
+
+.info span {
+	font-size: 20px;
+	line-height: 0;
+}
+
+.info p {
+	font-size: 24px;
+	color: $color__gray--darker;
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+.info .tagline {
+	font-size: 14px;
+	color: $color__gray--darker;
+}
+
+.inner-details {
+	margin-top: 8px;
+}
+
+.topbar .inner-details {
+	margin-top: 15px;
+}
+
+.inner-details span {
+	font-size: 22px;
+	line-height: 0;
+}
+
+.inner-details a {
+	color: #3a302a;
+	font-weight: 500;
+}
+
+.inner-details a.solution-author-link {
+	color: #3a302a;
+	font-size: 18px;
+	display: block;
+}
+
+.inner-details .login-name {
+	font-size: 14px;
+	line-height: 1.1;
+}
+
+.inner-details .contact {
+	font-size: 16px;
+	color: $color__gray--darker;
+	margin-top: 10px;
+}
+
+.inner-details .contact .divider {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inner-details .contact .solution-author-phone {
+	font-size: 14px;
+	font-weight: bold;
+	color: $color__gray--darker;
+}
+
+.inner-details .contact .solution-author-email {
+	font-size: 14px;
+	color: #3a302a;
+	font-weight: 500;
+}
+
+.solution-author-support {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.cvr,
+.name {
+	margin-top: 13px;
+}

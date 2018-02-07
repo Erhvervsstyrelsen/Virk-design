@@ -1,0 +1,55 @@
+a,
+a:link {
+	color: #067293;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #067293;
+}
+
+a:hover {
+	color: #000;
+}
+
+a:active {
+	color: #000;
+}
+
+.main-content a {
+	text-decoration: underline;
+}
+
+a.pointer {
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+a.pointer span {
+	background: url("../graphics/icon__link-pointer.svg") no-repeat right center;
+	padding-right: 10px;
+}
+
+h1.section a {
+	float: right;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12px;
+	margin-top: 5px;
+	padding-right: 10px;
+	background: url("../graphics/icon__link-pointer.svg") no-repeat scroll right center transparent;
+}
+
+legend a.close {
+	float: right;
+	text-indent: -9999px;
+	width: 18px;
+	height: 17px;
+	background: url("../graphics/icon__close.svg") no-repeat top left;
+	margin-top: 5px;
+}
+
+a.btn {
+	text-decoration: none;
+}

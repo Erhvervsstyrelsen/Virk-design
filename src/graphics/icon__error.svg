@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon__error">
+            <path d="M26.0003,-0.0002 C11.6403,-0.0002 0.0003,11.6408 0.0003,25.9998 C0.0003,40.3598 11.6403,52.0008 26.0003,52.0008 C40.3593,52.0008 52.0003,40.3598 52.0003,25.9998 C52.0003,11.6408 40.3593,-0.0002 26.0003,-0.0002 L26.0003,-0.0002 Z" id="Fill-1" fill="#B01B1B"></path>
+            <polygon id="Path" fill="#FFFFFF" points="37.9447323 34.2237279 34.1450777 38 25.9867145 29.7874319 17.7752092 37.9447323 14 34.1450777 22.2115052 25.9867145 14.0542049 17.7762721 17.8527966 14 26.0111598 22.2115052 34.2226651 14.0542049 38 17.8538594 29.7874319 26.0122227"></polygon>
+        </g>
+    </g>
+</svg>

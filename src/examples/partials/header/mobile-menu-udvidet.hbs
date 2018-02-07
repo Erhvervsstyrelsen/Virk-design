@@ -1,0 +1,66 @@
+<!-- <div id="dl-menu" class="dl-menuwrapper visible-xs">
+	<button class="dl-trigger dl-active">Open Menu</button>
+	<ul class="dl-menu dl-menuopen">
+		<li>
+			<a href="eksempel03-1.html">Ny virksomhed</a>
+		</li>
+		<li>
+			<a href="eksempel02.html" class="active">Mine registreringer</a>
+			<ul>
+				<li><a href="eksempel02.html">Mine kladder</a></li>
+				<li><a href="#">Mine aktive virksomheder</a></li>
+				<li><a href="#">Mine passive virksomheder</a></li>
+			</ul>
+		</li>
+		<li class="dl-menu-footer">
+			<li><a href="#">Dansk</a></li>
+			<li>
+				<a href="#">
+					Subtitel på løsning<br />
+					<p>Skift</p>
+				</a>
+			</li>
+		</li>
+	</ul>
+</div> -->
+
+<div id="dl-menu" class="nav-side-menu visible-xs">
+	<button class="dl-trigger dl-active toggle-btn collapsed" data-toggle="collapse" data-target="#menu-content">Open Menu</button>
+  <div id="menu-content" class="menu-list collapse">
+  	<ul class="menu-content">
+      <li class="active"><a href="#">Menupunkt 1</a></li>
+			<li><a href="#">Menupunkt 3</a></li>
+      <li data-toggle="collapse" data-target="#submenu" class="collapsed"><a href="#">Menupunkt 3 <span class="arrow"></span></a>
+				<ul class="sub-menu collapse" id="submenu">
+					<li><a href="#">Submenu 1</a></li>
+					<li><a href="#">Submenu 2</a></li>
+					<li><a href="#">Submenu 3</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="menu-footer">
+			<li data-toggle="collapse" data-target="#languages-m" class="collapsed"><a href="#"><i class="glyphicon glyphicon-globe"></i> Dansk <span class="arrow"></span></a>
+				<ul class="sub-menu collapse" id="languages-m">
+					<li><a href="#">Dansk</a></li>
+					<li><a href="#">English</a></li>
+					<li><a href="#">Polski</a></li>
+				</ul>
+			</li>
+
+			<li data-toggle="collapse" data-target="#businesses" class="collapsed business-switch"><a href="#"><span class="small">Subtitel på løsning</span><br />Skift <span class="arrow"></span></a>
+				<ul class="sub-menu collapse" id="businesses">
+					<li><a href="#">Virksomhed 1</a></li>
+					<li><a href="#">Virksomhed 2</a></li>
+					<li><a href="#">Virksomhed 3</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="mobile-menu-buttons">
+			{{> header/header-bottom-kompleks-udvidet-buttons}}
+		</div>
+		<div class="mobile-menu-user">
+			<span class="mobile-menu-user-name">Christian Emil Vestergaard Christiansen</span>
+			<a href="" class="mobile-menu-user-logout">Log ud</a>
+		</div>
+  </div>
+</div>

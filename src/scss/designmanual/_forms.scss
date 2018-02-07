@@ -1,0 +1,446 @@
+fieldset {
+	margin-bottom: 2em;
+	//border-bottom: 1px solid $color__gray--light;
+	position: relative;
+	clear: both;
+}
+
+fieldset.remove-border {
+	border: 0;
+}
+
+fieldset legend {
+	font-size: 24px;
+	font-weight: normal;
+	color: $color__gray--darker;
+	padding-bottom: 15px;
+	border-bottom: 2px solid $color__gray--darker;
+	width: 100%;
+	background: $color__white;
+	margin-bottom: 0.5em;
+}
+
+.label,
+fieldset label {
+	display: block;
+	margin-bottom: 0.5em;
+	color: $color__black;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	white-space: normal;
+}
+
+fieldset span.required {
+	font-family: arial;
+	color: $color__red;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+fieldset .form-group {
+	padding-top: 0.5em;
+	margin: 0 0.5em 1em;
+	display: block;
+	position: relative;
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+fieldset .form-group p {
+	margin: 0;
+}
+
+fieldset .form-control {
+	border-radius: 0;
+	border: 1px solid $color__gray--light;
+	padding: 6px;
+	font-size: 14px;
+	width: 100%;
+	height: auto;
+}
+
+fieldset .required-enabled input,
+fieldset .required-enabled select,
+fieldset .required-enabled textarea {
+	margin-right: 3px;
+	border: 1px solid $color__gray--light;
+	padding: 5px;
+	font-size: 14px;
+}
+
+fieldset .required-enabled .description {
+	clear: both;
+}
+
+fieldset .has-error.required-enabled input,
+fieldset .has-error.required-enabled select,
+fieldset .has-error.required-enabled textarea {
+	border: 4px solid $color__red;
+}
+
+fieldset .required-enabled .help-block {
+	padding: 0.8em 0 0.8em 0.8em;
+	color: $color__black;
+	margin-bottom: 0;
+	clear: both;
+}
+
+fieldset .has-error .help-block {
+	padding: 0.8em 0 0.8em 0.8em;
+	background: $color__red;
+	//border-bottom: 1px solid $color__red--dark;
+	color: $color__white;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+fieldset .disabled .form-control,
+fieldset .disabled .input-select-field,
+fieldset .disabled .input-textarea-field,
+fieldset .disabled input-text-field {
+	background: $color__gray--lighter;
+	border: 1px solid $color__gray--light;
+}
+
+fieldset .disabled .label,
+fieldset .disabled label {
+	color: $color__gray--dark;
+}
+
+fieldset .form-control-static {
+	font-size: 14px;
+	border-left: 1px solid $color__gray--dark;
+	padding: 8px 10px;
+	display: inline-block;
+	background: $color__blue--light;
+	width: 100%;
+}
+
+fieldset .description-enabled .input-select-field,
+fieldset .description-enabled .input-text-field,
+fieldset .description-enabled .input-textarea-field,
+fieldset.background-enabled .form-control-static {
+	margin-right: 5%;
+	@include breakpoint(sm) {
+		float: left;
+	}
+}
+
+fieldset .description {
+	float: none;
+	width: auto;
+	color: $color__gray--dark;
+	padding-top: 5px;
+	position: relative;
+	background: $color__gray--lighter;
+	margin: 0;
+	padding: 1em;
+}
+
+fieldset .col-sm-6 .description {
+	margin-top: 0;
+	width: 100%;
+	clear: both;
+	@include breakpoint(sm) {
+		float: left;
+		clear: none;
+	}
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-top: 0;
+	height: 15px;
+}
+
+a.help {
+	margin-left: -5.5%;
+	display: inline-block;
+	background: url("../graphics/icon__help.svg") no-repeat 0 100%;
+	margin-left: 3%;
+	padding-left: 27px;
+	cursor: pointer;
+	padding-top: 3px;
+	height: 23px;
+	color: $color__gray--darker;
+
+	&-no-text {
+		position: relative;
+		top: 7px;
+	}
+}
+
+a.help:hover {
+	background: url("../graphics/icon__help--hover.svg") no-repeat 0 100%;
+}
+
+button.help {
+	background: url("../graphics/icon__help.svg") no-repeat 0 100%;
+	cursor: pointer;
+	padding-top: 0;
+	height: 23px;
+	width: 23px;
+	color: $color__gray--darker;
+	position: relative;
+	display: inline-block;
+	text-indent: -9999px;
+	border: 0;
+}
+
+button.help:hover {
+	background: url("../graphics/icon__help--hover.svg") no-repeat 0 100%;
+}
+
+fieldset .input-checkboxes a.help,
+fieldset .input-radios a.help {
+	margin-left: 2%;
+}
+
+fieldset .description a.help {
+	margin-left: 2%;
+}
+
+fieldset .required-enabled a.help {
+	margin-left: 0;
+}
+
+fieldset .help-text {
+	display: none;
+	background: $color__yellow--light;
+	color: $color__gray--darker;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	margin-left: -1em;
+	margin-bottom: -1em;
+	margin-right: -1em;
+	border-top: 1px solid $color__yellow;
+	border-bottom: 1px solid $color__yellow;
+}
+
+fieldset .checkbox,
+fieldset .radio {
+	margin: 5px 0 15px;
+}
+
+fieldset.push-up {
+	margin-top: -2em;
+}
+
+fieldset .background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 50%;
+	background: $color__gray--lighter;
+	margin-left: 50%;
+}
+
+fieldset .description-enabled .has-error {
+	width: 45% !important;
+}
+
+fieldset .description-enabled.help-enabled .has-error {
+	width: 43%;
+}
+
+fieldset .description-enabled.help-enabled.required-enabled .has-error {
+	width: 38%;
+	margin-top: -1px;
+}
+
+.fieldset-text h2,
+fieldset h2 {
+	color: $color__gray--darker;
+	font-size: 15px;
+	font-weight: bold;
+	//margin: 30px 0 0 0.5em;
+	margin: 30px 0 0;
+	padding: 0;
+}
+
+.fieldset-text {
+	margin-top: -1em;
+	margin-bottom: 2em;
+	//border-bottom: 1px solid $color__gray--light;
+}
+
+.fieldset-text p {
+	//margin: 1.5em 0;
+	margin: 0 0 1.5em;
+}
+
+fieldset .has-error span.required {
+	color: $color__red;
+}
+
+fieldset .required-enabled .has-error {
+	width: 97%;
+}
+
+.webkit fieldset .required-enabled .has-error {
+	margin-top: -2px;
+}
+
+.three-col fieldset .required-enabled .has-error {
+	width: 95%;
+}
+
+fieldset.search {
+	width: 100%;
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+}
+
+fieldset.search .form-group {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+fieldset.search .form-control {
+	width: 65%;
+	float: left;
+	height: 40px;
+	margin-right: 1%;
+}
+
+fieldset.search .btn {
+	float: left;
+	margin-right: 0;
+}
+
+fieldset.date .form-group {
+	padding: 20px 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+fieldset.date .add-on {
+	float: left;
+	margin: 5px 0 0;
+	cursor: pointer;
+}
+/* Step guide */
+.step-guide {
+	margin-bottom: 20px;
+	margin-top: -6px;
+}
+
+.step-guide h2 {
+	font-size: 16px;
+}
+
+.step-guide .active {
+	padding: 10px;
+	border-bottom: 1px solid $color__gray--light;
+}
+
+.step-guide .active input {
+	float: left;
+	margin-right: 5px;
+}
+
+.step-guide .active label {
+	float: left;
+	width: 92%;
+}
+
+.step-guide .previous {
+	padding: 10px;
+	border-bottom: 1px solid $color__gray--light;
+	background: $color__gray--lighter;
+	color: $color__gray--dark;
+}
+
+.step-guide .previous h2 {
+	font-weight: normal;
+	color: $color__gray--dark;
+}
+
+.step-guide .previous .item a {
+	float: right;
+	//text-decoration: none;
+	//background: url("../graphics/icon__link-pointer.svg") no-repeat scroll right center transparent;
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.step-guide .previous .item .answer {
+	background: url("../graphics/icon__tick-content.svg") no-repeat left center;
+	padding-left: 25px;
+}
+
+.step-guide .item {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.step-guide .item .help {
+	margin-top: 20px;
+	background: $color__gray--lighter;
+	margin-bottom: 20px;
+	color: $color__gray--dark;
+	padding: 10px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	input[type="date"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="time"] {
+		&.form-control {
+			line-height: inherit;
+		}
+
+		&.input-sm,
+		.input-group-sm & {
+			line-height: inherit;
+		}
+
+		&.input-lg,
+		.input-group-lg & {
+			line-height: inherit;
+		}
+	}
+}
+/* Search form with filters */
+.search-form-filtering {
+	&-headline {
+		font-size: 18px;
+		margin: 20px 0 10px;
+		@include breakpoint(md) {
+			margin: 0 0 10px;
+		}
+	}
+
+	&-subheadline {
+		font-size: 14px;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	&-select {
+		height: 35px !important;
+	}
+
+	&-date {}
+
+	&-search-word {
+		height: 38px !important;
+	}
+
+	button[type="reset"] {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}

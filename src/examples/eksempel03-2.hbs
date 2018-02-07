@@ -1,0 +1,132 @@
+﻿{{> doc-head}}
+{{> header-simple-old-1}}
+
+<a href="#contentstart" class="hide">Gå direkte til indhold</a>
+
+<!-- Wrapper start -->
+<div class="container">
+
+	<!-- Mobile menu, Open step guide, start -->
+	<div class="row">
+		<div class="col-xs-12 constant-height">
+			<button class="btn btn-steps visible-xs" type="button" data-toggle="collapse" data-target=".nav-collapse">Trin 1 af 3 <span class="caret"></span></button>
+			{{> header/mobile-menu-old}}
+		</div>
+	</div>
+
+	<!-- Main content wrapper (three-col) start -->
+	<div class="content row">
+		<div class="col-xs-12 main-content hidden-xs">
+			<!-- Top menu -->
+			<nav class="" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+					</div>
+
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+			<!-- /Top menu -->
+		</div>
+		<div class="col-sm-3">
+			<ul class="nav style-2 nav-collapse collapse">
+				<li class="notice">
+					<a href="eksempel03-1.html">1. Stamdata <span class="error">Du mangler at udfylde data</span></a>
+				</li>
+				<li class="active">
+					<a href="eksempel03-2.html">2. Startdato</a>
+				</li>
+				<li>
+					<a href="eksempel03-3.html">3. Opsummering og godkendelse</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Main content start -->
+		<div class="col-sm-9 main-content">
+			<!-- Hidden link for accesibility -->
+			<a id="contentstart" class="hide">Indhold start</a>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Startdato</h1>
+					<form>
+						<fieldset class="date">
+							<div class="form-group col-sm-5 col-xs-6">
+								<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+									<label for="startdato">Virksomhedens startdato</label>
+									<input type="date" id="startdato" value="12-02-2012" class="form-control" />
+									<div class="description">Datoen skal indtastes i formatet dd/mm/åååå</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+					<div class="buttons">
+						<a href="eksempel03-1.html" class="btn btn-primary button-prev pull-left">Forrige</a>
+						<a data-toggle="modal" href="#myModal" class="btn btn-primary button-next pull-right">Næste</a>
+						<div class="clearfix"></div>
+						<div class="button-text">
+							<div class="left-btn">
+								Klik Forrige for at gå tilbage
+							</div>
+							<div class="right-btn">
+								Klik Næste for at gemme
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title"><span role="heading" aria-level="2">Kladde gemt</span></h4>
+						</div>
+						<div class="modal-body">
+							<div class="alert alert-info">
+								<div class="header">Dine indtastninger er gemt som kladde</div>
+							</div>
+							<div class="form-group col-xs-5">
+								<div class="checkbox">
+									<label>
+                    <input type="checkbox" title="Vis ikke igen" value="">
+                    Vis ikke igen
+                  </label>
+								</div>
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<a type="button" class="btn btn-primary" href="eksempel03-3.html">Fortsæt</a>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+
+			<div class="clearfix"></div>
+
+		</div>
+		<!-- Page content end -->
+	</div>
+	<!-- Main content end -->
+
+	<div class="clearfix"></div>
+
+	<!-- Main content wrapper (three-col) end -->
+</div>
+
+{{> footer}}
+{{> doc-footer}}

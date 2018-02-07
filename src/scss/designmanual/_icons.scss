@@ -1,0 +1,40 @@
+.icon {
+	width: 18px;
+	height: 18px;
+	content: " ";
+	position: relative;
+	display: inline-block;
+	top: 4px;
+	background-size: 18px 18px;
+
+	&--big {
+		width: 23px;
+		height: 23px;
+		background-size: 23px 23px;
+	}
+
+	&--error {
+		background-image: url("../graphics/icon__error.svg");
+		background-position: center;
+	}
+
+	&--tick {
+		background-image: url("../graphics/icon__tick.svg");
+		background-position: center;
+	}
+
+	&--warning {
+		background-image: url("../graphics/icon__exclamation.svg");
+		background-position: center;
+	}
+
+	&--warning-gray {
+		background-image: url("../graphics/icon__exclamation--gray.svg");
+		background-position: center;
+	}
+
+	&--info {
+		background-image: url("../graphics/icon__info-small.svg");
+		background-position: center;
+	}
+}

@@ -1,0 +1,179 @@
+{{> doc-head}}
+
+{{> header-simple}}
+
+<!-- Wrapper start -->
+<div class="container">
+
+	<!-- Mobile menu, Open step guide, start -->
+	<div class="row">
+		<div class="col-xs-12 constant-height">
+			{{> header/mobile-menu-simple}}
+		</div>
+	</div>
+
+	<!-- Main content wrapper start -->
+	<div class="content row">
+		<!-- Main content start -->
+		<div class="col-xs-12 main-content">
+			<!-- Hidden link for accesibility -->
+			<a id="contentstart" class="hide">Indhold start</a>
+			<!-- Page content start -->
+			<h1 class="sr-only">Søgning</h1>
+			<form method="get" action="none.html" role="form" class="search-form-filtering">
+				<fieldset>
+					<legend><span role="heading" aria-level="2">Søg kursus</span></legend>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<h2 class="search-form-filtering-headline">Sted</h2>
+							<div class="row">
+								<div class="col-xs-12 col-md-4">
+									<h3 class="search-form-filtering-subheadline">Vælg landsdel</h3>
+									<div class="form-group">
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel1" value="hele-landet" checked="checked">
+												Hele landet
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel2" value="hovedstaden">
+												Hovedstaden
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel3" value="midtjylland">
+												Midtjylland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel4" value="nordjylland">
+												Nordjylland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel5" value="sjaelland">
+												Sjælland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel6" value="syddanmark">
+												Syddanmark
+											</label>
+										</div>
+								</div>
+
+								</div>
+								<div class="col-xs-12 col-md-8">
+									<div class="form-group">
+										<label for="uddannelsessted">Uddannelsessted</label>
+										<select id="uddannelsessted" class="form-control search-form-filtering-select">
+												<option value="0">Vælg uddannelsessted</option>
+										</select>
+								</div>
+
+								<div class="form-group">
+										<label for="maks-afstand">Maks. afstand</label>
+										<select id="maks-afstand" class="form-control search-form-filtering-select">
+												<option value="0">Vælg</option>
+										</select>
+								</div>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<h2 class="search-form-filtering-headline">Periode</h2>
+							<div class="form-group">
+								<div class="input-append date" data-date="15-09-2017" data-date-format="dd-mm-yyyy">
+									<label for="startdato">Startdato</label>
+									<input type="date" id="startdato" value="15-09-2017" class="form-control search-form-filtering-date" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-append date" data-date="15-09-2017" data-date-format="dd-mm-yyyy">
+									<label for="slutdato">Slutdato</label>
+									<input type="date" id="slutdato" value="15-09-2017" class="form-control search-form-filtering-date" />
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<h2 class="search-form-filtering-headline">H2 titel</h2>
+							<h3 class="search-form-filtering-subheadline">Checkbokse label</h3>
+							<div class="form-group">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										  Kurser med ledige pladser
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										Checkbox
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										Checkbox
+									</label>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+							<label for="search-word">Indtast søgeord</label>
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<div class="required-enabled">
+										<input type="text" id="search-word" class="form-control search-form-filtering-search-word" />
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+							  	<button type="submit" class="btn btn-primary search">Søg</button>
+									<button type="reset" value="Reset" class="btn btn-link">Nulstil</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					</fieldset>
+				</form>
+
+
+				<!-- Search results -->
+				<h2>Din søgning gav 18 resultater</h2>
+				{{> tables/table-soegeresultater}}
+
+
+			<div class="clearfix"></div>
+		</div>
+		<!-- Page content end -->
+
+	</div>
+	<!-- Main content end -->
+	<div class="clear"></div>
+	<!-- Main content wrapper (three-col) end -->
+</div>
+
+{{> footer}}
+
+
+{{> doc-footer}}

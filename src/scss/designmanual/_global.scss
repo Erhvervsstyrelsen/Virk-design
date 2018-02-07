@@ -1,0 +1,141 @@
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	border-bottom: 1px solid;
+}
+
+.hidden {
+	display: none;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft {
+	float: left;
+	margin: 4px 10px 4px 0;
+}
+
+img.alignright {
+	float: right;
+	margin: 4px 0 4px 10px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (max-width: 768px) {
+	ul.nav.style-2 {
+		margin-top: 44px;
+	}
+
+	.label.label-draft {
+		color: $color__gray--dark;
+		border: $color__gray--light solid 0;
+		padding: 5px 10px;
+		font-weight: normal;
+		font-size: 110%;
+		border-radius: 0;
+		position: absolute;
+		margin: 10px 5% 0 45%;
+		float: none;
+	}
+
+	fieldset legend {
+		margin-bottom: 1.5em;
+	}
+
+	fieldset .form-group {
+		padding-top: 0;
+		margin: 0 0.5em;
+	}
+
+	.label,
+	fieldset label {
+		margin-top: 20px;
+	}
+
+	.container {
+		max-width: 100%;
+	}
+
+	.inner-details .solution-author-link {
+		margin-top: 0 !important;
+	}
+}
+@media (min-width: 768px) {
+	.nav-collapse.collapse {
+		display: block;
+	}
+}
+@media print {
+	.hidden-print {
+		display: none!important;
+	}
+
+	.visible-print {
+		display: block !important;
+	}
+}
+
+.external-link {
+	background-image: url("../graphics/icon__external-link.svg");
+	background-position: right center;
+	background-size: 12px;
+	background-repeat: no-repeat;
+	padding-right: 16px;
+}

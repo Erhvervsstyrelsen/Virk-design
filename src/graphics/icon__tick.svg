@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon__tick">
+            <path d="M26,0 C11.641,0 0,11.641 0,26 C0,40.359 11.641,52 26,52 C40.359,52 52,40.359 52,26 C52,11.641 40.359,0 26,0" id="Fill-1" fill="#97C020"></path>
+            <polygon id="Fill-3" fill="#333333" points="24.8318148 35.5053658 24.8357547 35.508314 21.3134696 39 10 27.6385078 14.5072642 23.163096 21.3331692 30.0255906 37.5144053 14 42 18.4950666"></polygon>
+        </g>
+    </g>
+</svg>

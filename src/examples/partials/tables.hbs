@@ -1,0 +1,17 @@
+<h2 class="section">Tabeller</h2>
+
+<h3>Almindelig tabel</h3>
+{{> tables/table-regular}}
+
+
+<h3>Tabel med input felter</h3>
+{{> tables/table-inputs}}
+
+
+<h3>Bred tabel i modal</h3>
+<p>Indledende brødtekst til feltgruppe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+{{> tables/table-inputs}}
+<!-- Modal -->
+{{> modals/modal-head-responsive modal-name="bredtabel-modal"}}
+	{{> tables/table-inputs tablewidth="1200px"}}
+{{> modals/modal-footer}}

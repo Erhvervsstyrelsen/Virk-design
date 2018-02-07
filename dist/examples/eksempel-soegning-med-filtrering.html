@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xml:lang="da" lang="da">
+<head>
+    <title>Virk Designmanual v2.5</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="keywords" content="Keywords" />
+    <meta name="description" content="Description" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="../css/designmanual.css" rel="stylesheet" media="screen, print" />
+    <!-- <link href="../css/component.css" rel="stylesheet" media="screen" /> -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="../js/html5shiv.js"></script>
+      <script type="text/javascript" src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<a href="#contentstart" class="hide">Gå direkte til indhold</a>
+<!-- Header start -->
+<header class="navbar">
+	<div class="top hidden-xs">
+			<div class="container">
+					<div class="row">
+							<div class="col-sm-6 col-xs-12">
+									<a href="">
+											<img src="../graphics/logo-virk.svg" height="57" width="240" alt="Virk / Indberetning - logo" class="logo" />
+									</a>
+							</div>
+							<div class="col-xs-6 align-right nav-tools hidden-xs">
+									<a href="">Log ud &#8250;</a>
+									<div class="inner-details">
+											<span class="login-name">Christian Emil Vestergaard Christiansen,<br/>Københavns Urmager Værksted v/Martin Elsig</span>
+									</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<div class="topbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 info">
+					<p>Nyt iværksætterselskab</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 align-right hidden-xs">
+					<div class="inner-details">
+						<a href="#" class="solution-author-link">Erhvervsstyrelsen <span>&#8250;</span></a>
+						<div class="contact">
+							Support: <span class="solution-author-phone">72 20 00 31</span>
+							<span class="divider">|</span>
+							<a href="#" class="solution-author-email">E-mail <span>&#8250;</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Header end -->
+
+<!-- Wrapper start -->
+<div class="container">
+
+	<!-- Mobile menu, Open step guide, start -->
+	<div class="row">
+		<div class="col-xs-12 constant-height">
+			<!-- <div id="dl-menu" class="dl-menuwrapper visible-xs">
+				<button class="dl-trigger dl-active">Open Menu</button>
+				<ul class="dl-menu dl-menuopen">
+					<li>
+						<a href="eksempel03-1.html">Ny virksomhed</a>
+					</li>
+					<li>
+						<a href="eksempel02.html" class="active">Mine registreringer</a>
+						<ul>
+							<li><a href="eksempel02.html">Mine kladder</a></li>
+							<li><a href="#">Mine aktive virksomheder</a></li>
+							<li><a href="#">Mine passive virksomheder</a></li>
+						</ul>
+					</li>
+					<li class="dl-menu-footer">
+						<li><a href="#">Dansk</a></li>
+						<li>
+							<a href="#">
+								Subtitel på løsning<br />
+								<p>Skift</p>
+							</a>
+						</li>
+					</li>
+				</ul>
+			</div> -->
+			
+			<div id="dl-menu" class="nav-side-menu visible-xs">
+				<button class="dl-trigger dl-active toggle-btn collapsed" data-toggle="collapse" data-target="#menu-content">Open Menu</button>
+			  <div id="menu-content" class="menu-list collapse">
+			  	<ul class="menu-content">
+			      <li class="active"><a href="#">Menupunkt 1</a></li>
+						<li><a href="#">Menupunkt 3</a></li>
+			      <li data-toggle="collapse" data-target="#submenu" class="collapsed"><a href="#">Menupunkt 3 <span class="arrow"></span></a>
+							<ul class="sub-menu collapse" id="submenu">
+								<li><a href="#">Submenu 1</a></li>
+								<li><a href="#">Submenu 2</a></li>
+								<li><a href="#">Submenu 3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="menu-footer">
+						<li data-toggle="collapse" data-target="#languages-m" class="collapsed"><a href="#"><i class="glyphicon glyphicon-globe"></i> Dansk <span class="arrow"></span></a>
+							<ul class="sub-menu collapse" id="languages-m">
+								<li><a href="#">Dansk</a></li>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Polski</a></li>
+							</ul>
+						</li>
+			
+						<li data-toggle="collapse" data-target="#businesses" class="collapsed business-switch"><a href="#"><span class="small">Subtitel på løsning</span><br />Skift <span class="arrow"></span></a>
+							<ul class="sub-menu collapse" id="businesses">
+								<li><a href="#">Virksomhed 1</a></li>
+								<li><a href="#">Virksomhed 2</a></li>
+								<li><a href="#">Virksomhed 3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="mobile-menu-buttons">
+						<button type="button" class="btn btn-default btn-sm btn-right-aligned">Gem og luk kladde</button>
+						<button type="button" class="btn btn-default btn-sm btn-right-aligned">Slet kladde</button>
+						<button type="button" class="btn btn-default btn-sm btn-right-aligned">Print kladde</button>
+					</div>
+					<div class="mobile-menu-user">
+						<span class="mobile-menu-user-name">Christian Emil Vestergaard Christiansen</span>
+						<a href="" class="mobile-menu-user-logout">Log ud</a>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main content wrapper start -->
+	<div class="content row">
+		<!-- Main content start -->
+		<div class="col-xs-12 main-content">
+			<!-- Hidden link for accesibility -->
+			<a id="contentstart" class="hide">Indhold start</a>
+			<!-- Page content start -->
+			<h1 class="sr-only">Søgning</h1>
+			<form method="get" action="none.html" role="form" class="search-form-filtering">
+				<fieldset>
+					<legend><span role="heading" aria-level="2">Søg kursus</span></legend>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<h2 class="search-form-filtering-headline">Sted</h2>
+							<div class="row">
+								<div class="col-xs-12 col-md-4">
+									<h3 class="search-form-filtering-subheadline">Vælg landsdel</h3>
+									<div class="form-group">
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel1" value="hele-landet" checked="checked">
+												Hele landet
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel2" value="hovedstaden">
+												Hovedstaden
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel3" value="midtjylland">
+												Midtjylland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel4" value="nordjylland">
+												Nordjylland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel5" value="sjaelland">
+												Sjælland
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="landsdel" id="landsdel6" value="syddanmark">
+												Syddanmark
+											</label>
+										</div>
+								</div>
+
+								</div>
+								<div class="col-xs-12 col-md-8">
+									<div class="form-group">
+										<label for="uddannelsessted">Uddannelsessted</label>
+										<select id="uddannelsessted" class="form-control search-form-filtering-select">
+												<option value="0">Vælg uddannelsessted</option>
+										</select>
+								</div>
+
+								<div class="form-group">
+										<label for="maks-afstand">Maks. afstand</label>
+										<select id="maks-afstand" class="form-control search-form-filtering-select">
+												<option value="0">Vælg</option>
+										</select>
+								</div>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<h2 class="search-form-filtering-headline">Periode</h2>
+							<div class="form-group">
+								<div class="input-append date" data-date="15-09-2017" data-date-format="dd-mm-yyyy">
+									<label for="startdato">Startdato</label>
+									<input type="date" id="startdato" value="15-09-2017" class="form-control search-form-filtering-date" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-append date" data-date="15-09-2017" data-date-format="dd-mm-yyyy">
+									<label for="slutdato">Slutdato</label>
+									<input type="date" id="slutdato" value="15-09-2017" class="form-control search-form-filtering-date" />
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<h2 class="search-form-filtering-headline">H2 titel</h2>
+							<h3 class="search-form-filtering-subheadline">Checkbokse label</h3>
+							<div class="form-group">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										  Kurser med ledige pladser
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										Checkbox
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" value="">
+										Checkbox
+									</label>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+							<label for="search-word">Indtast søgeord</label>
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<div class="required-enabled">
+										<input type="text" id="search-word" class="form-control search-form-filtering-search-word" />
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+							  	<button type="submit" class="btn btn-primary search">Søg</button>
+									<button type="reset" value="Reset" class="btn btn-link">Nulstil</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					</fieldset>
+				</form>
+
+
+				<!-- Search results -->
+				<h2>Din søgning gav 18 resultater</h2>
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Titel 1</th>
+								<th>Titel 2</th>
+								<th>Titel 3</th>
+								<th>Titel 4</th>
+								<th>Titel 5</th>
+								<th><span class="sr-only">Titel 6</span></th>
+							</tr>
+						</thead>
+				
+						<tbody>
+							<tr>
+								<td><a href="#">Titel 1</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Titel 2</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Titel 3</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Titel 4</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Titel 5</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Titel 6</a> <span>Lorem ipsum</span></td>
+								<td>Lorem ipsum</td>
+								<td>15-11-2017</td>
+								<td>13-11-2017</td>
+								<td>Lorem ipsum</td>
+								<td><a href="#">Tilmeld</a></td>
+							</tr>
+				
+						</tbody>
+					</table>
+				</div>
+
+
+			<div class="clearfix"></div>
+		</div>
+		<!-- Page content end -->
+
+	</div>
+	<!-- Main content end -->
+	<div class="clear"></div>
+	<!-- Main content wrapper (three-col) end -->
+</div>
+
+
+
+<!-- Wrapper end -->
+<!-- Script to load start -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../js/jquery.dlmenu.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<!-- Script to load end -->
+</body>
+</html>
